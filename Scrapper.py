@@ -2,6 +2,7 @@ import streamlit as st
 import base64
 import pandas as pd
 from io import BytesIO
+import json  # Ajout de l'import json
 from google.oauth2 import service_account
 from google.cloud import documentai_v1 as documentai
 
